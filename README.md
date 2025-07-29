@@ -19,9 +19,9 @@ multiroom_chatroom_system/
 
 ---
 
-## 🚀 Features
+##  Features
 
-### ✅ Server Features (`server.py`)
+###  Server Features (`server.py`)
 - Multi-room support (`/create`, `/join`, `/leave`)
 - Persistent usernames (`user_data.json`)
 - Color-coded usernames using `colorama`
@@ -30,7 +30,7 @@ multiroom_chatroom_system/
 - Auto logging to `server_logs/`
 <img width="1011" height="214" alt="image" src="https://github.com/user-attachments/assets/d695e8a3-4b7f-4884-936b-d1275e7866ab" />
 
-### 🖥️ Terminal Client (`client.py`)
+###  Terminal Client (`client.py`)
 - Auto reconnection to server
 - Persistent logging to `logs/`
 - Color-coded chat display
@@ -39,7 +39,7 @@ multiroom_chatroom_system/
 <img width="1000" height="741" alt="image" src="https://github.com/user-attachments/assets/b1ad1228-c170-4582-82c3-c4dd1ea3038b" />
 <img width="912" height="432" alt="image" src="https://github.com/user-attachments/assets/1a602bd5-dd33-4da2-adfc-40eee5ec2f89" />
 
-### 🖼️ GUI Client (`client_gui.py`)
+###  GUI Client (`client_gui.py`)
 - Tkinter-based GUI
 - Scrollable chat history
 - Color-coded usernames
@@ -50,7 +50,7 @@ multiroom_chatroom_system/
 
 ## 🛠️ Installation & Setup
 
-### 📌 Requirements
+### Requirements
 - Python 3.7+
 - `colorama` module (for color support)
 
@@ -59,17 +59,17 @@ Install dependencies:
 pip install colorama
 ```
 
-### 🔧 Running the Server
+### Running the Server
 ```bash
 python server.py
 ```
 
-### 🧑‍💻 Running the Terminal Client
+### Running the Terminal Client
 ```bash
 python client.py
 ```
 
-### 🖱️ Running the GUI Client
+###  Running the GUI Client
 ```bash
 python client_gui.py
 ```
@@ -90,13 +90,13 @@ python client_gui.py
 
 ---
 
-## 🔒 Username Persistence
+##  Username Persistence
 
 Usernames are stored persistently in `user_data.json`. On first login, each user is assigned an ID and color. Color consistency is maintained during the session.
 
 ---
 
-## 📝 Logging
+##  Logging
 
 - Server logs: `server_logs/server_log_<timestamp>.log`
 - Client logs: `logs/chat_<timestamp>.log`
@@ -105,7 +105,7 @@ These logs track all messages and activity for monitoring and debugging.
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 - This system runs on `127.0.0.1:9090` by default (localhost). To run over a LAN, update `HOST` in `server.py` and clients accordingly.
 - GUI and terminal clients can both connect simultaneously.
@@ -113,14 +113,15 @@ These logs track all messages and activity for monitoring and debugging.
 
 ---
 
-## 📚 License
+## License
 
 This project is open-source and provided under the [MIT License](LICENSE).
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - `colorama` for cross-platform color support
 - `tkinter` for GUI framework
 - Python’s `socket`, `threading`, and `json` modules
+
